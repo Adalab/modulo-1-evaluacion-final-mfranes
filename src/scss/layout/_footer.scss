@@ -3,7 +3,7 @@ a {
     text-decoration: none;     
  }
 
-.footerend {
+.footerContainer {
     background-color: #304268;
     width: 320px;
     height: 465px;
@@ -29,7 +29,7 @@ a {
     top: -20px;
 }
 
-.nav {
+.library {
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -37,7 +37,7 @@ a {
     padding-bottom: 36px;
 }
 
-.list {
+.libraryContent {
     list-style: none;
     line-height: 1.88;
     font-size: 16px;
