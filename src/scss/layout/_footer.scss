@@ -13,7 +13,7 @@
 
 .oval {
     width: 45px;
-    height: 45px;    
+    height: 45px;
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -39,10 +39,15 @@
 
 }
 
+ a {
+    color: white;
+    text-decoration: none;
+ }
+
 .signature {
     text-align: center;
     font-size: 14px;
-    font-weight: 100;    
+    font-weight: 100;
 
     display: flex;
     flex-direction: column;
