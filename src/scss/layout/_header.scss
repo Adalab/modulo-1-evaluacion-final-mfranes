@@ -1,7 +1,9 @@
 .cover {
-    background-color: var(--white);
+    height: 100vh;
+    background-image: url("/images/cover1.jpeg");
+    background-size: cover;
+    background-position: center center;
     display: flex;
-    flex-grow: 0;
     flex-direction: column;
     align-items: center;
 
@@ -11,34 +13,21 @@
         top: 0;
         left: 0;
         padding: 0px 12.3px 13.5px 12.3px;
-
-        &-image {
-            background-color: var(--white);
-            width: 320px;
-            height: 543.1px;
-            flex-grow: 0;
-            margin: 0 0 24.9px;
-            padding: 0 1.4px 34.1px 0px;
-            flex-direction: column;
-            align-items: center;
-            transform: rotate(-0.23deg);
- 
-        }
-
-
     }
 
 }
 
 .sectionone {
-    color: black;
-
+    color: white;
 
     &_title {
         font-size: 42px;
         line-height: 55px;
         font-weight: bold;
+        font-family: Roboto Slab;
 
+        &-text {
+            color: red;
+        }
     }
-
 }
