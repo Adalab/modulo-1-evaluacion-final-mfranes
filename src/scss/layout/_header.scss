@@ -6,6 +6,7 @@
     align-items: center;
     width: 320px;
     padding: 0 1.4px 34.1px 0px;
+    margin: 0 0 24.9px;
 
 
     &_menu {
@@ -13,8 +14,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 37.1px;
-        height: 22px;
+        padding: 0px 12.3px 13.5px 12.3px;
 
         &-image {
             background-color: var(--white);
@@ -27,18 +27,15 @@
 
 .sectionone {
     color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
     transform: rotate(-0.23deg);
-    
-    &_title{
+
+    &_title {
         font-size: 42px;
         line-height: 55px;
         align-items: center;
-       
+        padding-top:500px;
+
 
     }
-   
+
 }
-    
