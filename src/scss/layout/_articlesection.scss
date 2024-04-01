@@ -23,7 +23,12 @@
     justify-self: center;
 }
 
-.reasonarticle2 {
+.buttonOrange:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+
+.reasonArticle {
     padding: 0px 70px;
     line-height: 1.67;
 }
