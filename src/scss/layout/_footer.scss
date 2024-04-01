@@ -1,40 +1,26 @@
 .footerend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: #304268;
     width: 320px;
     height: 465px;
-    flex-grow: 0;
+    padding-top: 65px;
 }
 
 .Oval {
     background-color: black;
-
-
-
 }
 
-.listone {
+.nav {
     display: flex;
     flex-direction: column;
+    gap: 36px;
+}
+
+.list {
     list-style: none;
     color: white;
     line-height: 1.88;
     font-size: 16px;
-    padding: 65px 124px 65px 124px;
     font-family: Roboto;
-    text-align: center;
-
-}
-
-.listtwo {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    color: white;
-    line-height: 1.88;
-    font-size: 16px;
     text-align: center;
 
 }
