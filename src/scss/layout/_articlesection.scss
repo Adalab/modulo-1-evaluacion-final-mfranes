@@ -11,7 +11,7 @@
     grid-template-rows: 90px 140px 140px 140px 140px;
 }
 
-.buttonOrange {
+.moreReasons {
     background-color: #f26002;
     font-size: 20px;
     color: white;
@@ -23,12 +23,12 @@
     justify-self: center;
 }
 
-.buttonOrange:hover {
+.moreReasons:hover {
     transform: scale(1.5);
     transition: transform 0.3s ease;
 }
 
-.reasonArticle {
+.aReason {
     padding: 0px 70px;
     line-height: 1.67;
 }
