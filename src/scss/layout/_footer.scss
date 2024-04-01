@@ -1,3 +1,8 @@
+a {
+    color: white;
+    text-decoration: none;     
+ }
+
 .footerend {
     background-color: #304268;
     width: 320px;
@@ -18,6 +23,7 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 
     position: relative;
     top: -20px;
@@ -38,11 +44,6 @@
     text-align: center;
 
 }
-
- a {
-    color: white;
-    text-decoration: none;
- }
 
 .signature {
     text-align: center;
