@@ -3,6 +3,10 @@
     width: 320px;
     height: 465px;
     padding-top: 65px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 36px;    
 }
 
 .Oval {
@@ -27,6 +31,8 @@
 
 .copy {
     color: white;
+    text-align: center;
+    font-size: 14px;
 }
 
 .we-components .text-style-2 {
