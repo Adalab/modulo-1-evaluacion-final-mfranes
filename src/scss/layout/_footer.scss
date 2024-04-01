@@ -4,10 +4,10 @@
     height: 465px;
     color: white;
     font-family: Roboto;
+    font-weight: 300;
 
     display: flex;
     flex-direction: column;
-    gap: 36px;
     align-items: center;
 }
 
@@ -27,6 +27,8 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+    padding-top: 16px;
+    padding-bottom: 36px;
 }
 
 .list {
@@ -40,6 +42,7 @@
 .signature {
     text-align: center;
     font-size: 14px;
+    font-weight: 100;    
 
     display: flex;
     flex-direction: column;
