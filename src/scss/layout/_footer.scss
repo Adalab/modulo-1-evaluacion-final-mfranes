@@ -11,8 +11,13 @@
     gap: 36px;
 }
 
-.Oval {
-    background-color: black;
+.oval {
+    width: 45px;
+    height: 45px;    
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
