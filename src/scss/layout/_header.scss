@@ -4,11 +4,6 @@
     flex-grow: 0;
     flex-direction: column;
     align-items: center;
-    width: 320px;
-    padding: 0 1.4px 34.1px 0px;
-    margin: 0 0 24.9px;
-   
-
 
     &_menu {
         background-color: #0271bc;
@@ -19,6 +14,15 @@
 
         &-image {
             background-color: var(--white);
+            width: 320px;
+            height: 543.1px;
+            flex-grow: 0;
+            margin: 0 0 24.9px;
+            padding: 0 1.4px 34.1px 0px;
+            flex-direction: column;
+            align-items: center;
+            transform: rotate(-0.23deg);
+ 
         }
 
 
@@ -28,13 +32,13 @@
 
 .sectionone {
     color: black;
-    
+
 
     &_title {
         font-size: 42px;
         line-height: 55px;
         font-weight: bold;
-     
+
     }
 
 }
