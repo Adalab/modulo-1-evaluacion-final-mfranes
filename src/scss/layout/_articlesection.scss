@@ -1,17 +1,29 @@
-.reasonarticle {
+.reasonsToPurchase {
     display: grid;
     background-color: #eff9ff;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 624px;
     width: 320px;
     text-align: center;
-
+    font-family: Roboto Slab;
+    font-size: 18px;
+    font-weight: 350;
+    padding-top: 29px;
+    grid-template-rows: 90px 140px 140px 140px 140px;
 }
-.buttonorange{
+
+.buttonOrange {
     background-color: #f26002;
+    font-size: 20px;
     color: white;
     width: 184px;
     height: 45px;
     border-radius: 22.5px;
+    border: none;
     margin: 0 0 10px;
+    justify-self: center;
+}
+
+.reasonarticle2 {
+    padding: 0px 70px;
+    line-height: 1.67;
 }
