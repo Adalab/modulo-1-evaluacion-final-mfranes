@@ -15,19 +15,19 @@
         padding: 0px 12.3px 13.5px 12.3px;
     }
 
-}
+    &_text {
+        color: white;
 
-.sectionone {
-    color: white;
+        &-title {
+            font-size: 42px;
+            line-height: 55px;
+            font-weight: bold;
+            font-family: Roboto Slab;
+        }
 
-    &_title {
-        font-size: 42px;
-        line-height: 55px;
-        font-weight: bold;
-        font-family: Roboto Slab;
-
-        &-text {
-            color: red;
+        &-subtitle {
+            color: red;            
         }
     }
+
 }
