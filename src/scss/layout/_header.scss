@@ -77,3 +77,47 @@
         margin-bottom: 40px;
     }
 }
+@media all and (min-width: 1280px) {
+    .cover {
+        width: 1280px;
+        height: 781px;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+
+        &_text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-title {
+                font-size: 100px;
+                font-family: RobotoSlab;
+                font-style: normal;
+                line-height: 1.32;
+                font-weight: bold;
+                text-align: center;
+                margin-left: 275px;
+                margin-right: 275px;
+            }
+
+            &-subtitle {
+              
+                font-weight: normal;
+                width: 730px;
+                font-size: 24px;
+                font-family: Roboto;
+                line-height: 1.17;
+              
+                margin-left: 275px;
+                margin-right: 275px;
+              
+                
+              
+                
+            }
+        }
+
+
+    }
+}
