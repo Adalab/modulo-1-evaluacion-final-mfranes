@@ -1,22 +1,22 @@
 a {
     color: white;
-    text-decoration: none;     
- }
-
-.footerContainer {
+    text-decoration: none;
+  }
+  
+  .footerContainer {
     background-color: #304268;
-    width: 320px;
+    width: 100vw;
     height: 465px;
     color: white;
     font-family: Roboto;
     font-weight: 300;
-
+  
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.oval {
+  }
+  
+  .oval {
     width: 45px;
     height: 45px;
     background-color: white;
@@ -24,37 +24,64 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
+  
     position: relative;
     top: -20px;
-}
-
-.library {
+  }
+  
+  .library {
     display: flex;
     flex-direction: column;
     gap: 36px;
     padding-top: 16px;
     padding-bottom: 36px;
-}
-
-.libraryContent {
+  }
+  
+  .libraryContent {
     list-style: none;
     line-height: 1.88;
     font-size: 16px;
     text-align: center;
-
-}
-
-.signature {
+  }
+  
+  .signature {
     text-align: center;
     font-size: 14px;
     font-weight: 100;
-
+  
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.hearthColor {
+  }
+  
+  .hearthColor {
     color: #f26002;
-}
+  }
+  
+  @media all and (min-width: 768px) {
+    .library {
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 50%;
+    }
+    .libraryContent {
+      width: 100%;
+      text-align: left;
+      align-content: center;
+    }
+    .footerContainer {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      height: 240px;
+      position: relative;
+    }
+    .signature {
+      text-align: left;
+      order: -1;
+    }
+    .oval {
+      position: absolute;
+      top: -22.5px;
+    }
+  }
