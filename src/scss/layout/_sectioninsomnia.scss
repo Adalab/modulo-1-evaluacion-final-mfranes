@@ -1,7 +1,8 @@
 .tips {
     background-color: var(--white);
     height: 376px;
-    width: 320px;
+    /*     width: 320px; */
+    width: 100vw;
     display: flex;
     flex-direction: column;
     padding-top: 67px;
@@ -27,11 +28,9 @@
                 line-height: 1.67;
                 text-align: left;
                 font-family: Roboto;
-                padding: 0 15px;
-                padding-top: 10px;
-                padding-bottom: 30px;
+                padding: 10px 15px 30px 15px;
             }
-        } 
+        }
     }
 }
 
@@ -42,7 +41,7 @@
 .goButton {
     font-family: Roboto;
     width: 76px;
-    height: 45px;     
+    height: 45px;
     font-size: 20px;
     border-radius: 22.5px;
     border: solid 2px #f26002;
@@ -53,4 +52,32 @@
 .goButton:hover {
     transform: rotate(360deg);
     transition: transform 0.5s ease;
+}
+
+@media all and (min-width: 768px) {
+    .tips {
+        height: 300px;
+        padding-top: 37px;
+
+        &_insomnia {
+            font-size: 14px;
+            padding: 0 39px;
+
+            &-subti {
+                padding: 0 39px;
+
+                &_par {
+                    font-size: 20px;
+                    padding-left: 39px;
+                    padding-right: 39px;
+                    padding-top: 20px;
+                }
+            }
+        }
+
+    }
+
+    .goButtonContainer {
+        padding: 0 39px;
+    }
 }
